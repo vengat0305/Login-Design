@@ -190,7 +190,7 @@ li {
   margin-top: 0.5rem;
 }
 .checkbox-color {
-  color: #000000;
+  accent-color: rgb(211,124,18)
 }
 .login-buttons {
   display: flex;
