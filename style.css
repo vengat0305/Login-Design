@@ -255,7 +255,7 @@ li {
   color: rgb(0, 0, 0);
 }
 .fb-icon,
-.insta-icon,
+.instagram-icon,
 .twitter-icon,
 .linked-icon {
   border: 1px solid black;
@@ -263,14 +263,14 @@ li {
   padding: 0.5rem;
 }
 .fa {
-  transition: 1s all;
+  transition: 1s;
 }
 .fa-twitter:hover,
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-linkedin:hover {
   font-size: 20px;
-  transition: 1s all;
+  transition: 1s;
   cursor: pointer;
   color: rgb(211, 124, 18);
 }
