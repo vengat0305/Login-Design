@@ -75,7 +75,7 @@ li {
   gap: 2rem;
   padding: 2rem;
   border-radius: 5px;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
   z-index: 1;
   margin-left: -45rem;
   margin-top: -41.5rem;
@@ -84,7 +84,10 @@ li {
   position: relative;
   margin-top: -120px;
   margin-left: 180px;
-  background-color: #fff;
+  border: 2px solid #000000;
+  background: #ffffff;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 7rem;
 }
 .fa-user-circle-o:hover {
   cursor: pointer;
@@ -123,7 +126,7 @@ li {
 }
 .fa-user {
   position: absolute;
-  margin-top: -55px;
+  margin-top: -90px;
   margin-left: 10px;
 }
 .input-name {
@@ -141,6 +144,7 @@ li {
   font-size: 10px;
   border: none;
   letter-spacing: 0.1rem;
+  color: rgb(211, 124, 18);
   border: 2px solid rgb(229, 229, 229);
   border-radius: 50px;
   background: none;
@@ -148,7 +152,7 @@ li {
 }
 .fa-lock {
   position: absolute;
-  margin-top: 105px;
+  margin-top: 70px;
   margin-left: 10px;
 }
 .input-password {
@@ -166,19 +170,35 @@ li {
   font-size: 10px;
   letter-spacing: 0.1rem;
   border: none;
+  color: rgb(211, 124, 18);
   border: 2px solid rgb(229, 229, 229);
   border-radius: 50px;
   background: none;
   backdrop-filter: blur(50px);
 }
-
+.checkbox-para {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  font-size: 10px;
+  letter-spacing: 0.1rem;
+  color: rgb(0, 0, 0);
+  font-family: "Barlow Condensed";
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.checkbox-color {
+  color: #000000;
+}
 .login-buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   text-align: center;
   transition: all;
 }
