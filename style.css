@@ -80,8 +80,8 @@ li {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
 }
 
@@ -89,7 +89,7 @@ li {
   width: 7.8rem;
   height: auto;
   filter: grayscale(100%);
-  filter: drop-shadow(1px 30px 20px rgb(195, 195, 195));
+  filter: drop-shadow(1px 30px 10px rgb(211, 124, 18));
   /* filter: grayscale(100%); */
   /* transition: 1s; */
   /* border: 1px solid black;
@@ -101,7 +101,17 @@ li {
   width: 6rem;
   transition: 2s;
 } */
-
+.logo-name {
+  font-family: "Barlow Condensed";
+  font-size: 48px;
+  letter-spacing: 0.2rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  z-index: -1;
+  position: absolute;
+  filter: drop-shadow(1px 5px 1px rgb(184, 184, 184));
+  left: 18px;
+}
 .nav-details {
   width: 100%;
   height: auto;
