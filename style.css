@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;600&family=Vina+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;600&family=Elsie:wght@400;900&family=Erica+One&family=Vina+Sans&display=swap");
 
 *,
 *::after,
@@ -17,6 +17,8 @@ html {
 body {
   display: block;
   font-family: "Barlow Condensed", sans-serif;
+  font-family: "Erica One", sans-serif;
+  font-family: "Elsie", serif;
   font-family: "Vina Sans", sans-serif;
   background: rgb(255, 255, 255);
 }
@@ -52,9 +54,11 @@ li {
 }
 
 .main-container {
+  position: relative;
   width: 100%;
   height: auto;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 /* Nav-Container */
 .nav-container {
@@ -101,9 +105,9 @@ li {
   width: 6rem;
   transition: 2s;
 } */
-.logo-name {
+/* .logo-name {
   font-family: "Barlow Condensed";
-  font-size: 48px;
+  font-size: 38px;
   letter-spacing: 0.2rem;
   color: rgb(0, 0, 0);
   font-weight: 600;
@@ -111,7 +115,7 @@ li {
   position: absolute;
   filter: drop-shadow(1px 5px 1px rgb(184, 184, 184));
   left: 18px;
-}
+} */
 .nav-details {
   width: 100%;
   height: auto;
@@ -198,7 +202,7 @@ li {
   backdrop-filter: blur(5px);
   z-index: 1;
   margin-left: -45rem;
-  margin-top: 2rem;
+  margin-top: -1rem;
 }
 .fa-user-circle-o {
   position: absolute;
@@ -233,45 +237,10 @@ li {
   border-bottom: 0px solid rgb(224, 224, 224);
   /* box-shadow: 0px 4px 0px rgb(0, 0, 0); */
 }
-
-.main-heading {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.header-title {
-  position: absolute;
-  width: 40rem;
-  font-size: 150px;
-  font-family: "Vina Sans";
-  font-weight: 400;
-  letter-spacing: 0.3rem;
-  z-index: -1;
-  margin-left: 65rem;
-  margin-bottom: 45rem;
-  color: #606060;
-  filter: drop-shadow(1px 9px 1px rgb(184, 184, 184));
-}
-/* .head-para {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 5rem;
-  font-size: 10px;
-  font-family: "Barlow Condensed";
-  font-weight: 200;
-  letter-spacing: 0.3rem;
-  z-index: 1;
-  margin-left: 52rem;
-  margin-bottom: 15rem;
-} */
 .login-title {
   font-family: "Vina Sans";
-  font-size: 55px;
-  letter-spacing: 0.3rem;
+  font-size: 50px;
+  letter-spacing: 0.2rem;
   color: rgb(0, 0, 0);
   font-weight: 400;
   margin-left: 9rem;
@@ -454,4 +423,46 @@ li {
   transition: 1s;
   cursor: pointer;
   color: rgb(211, 124, 18);
+}
+
+/* Cosmetics content 03 */
+.cosmetics-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cosmetics-title {
+  position: absolute;
+  /* width: 50rem; */
+  font-size: 70px;
+  font-family: "Erica One";
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  z-index: 1;
+  margin-bottom: -10rem;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 150px;
+  padding: 3rem 6rem;
+  color: rgb(0, 0, 0);
+  /* filter: drop-shadow(1px 6px 1px rgb(127, 127, 127)); */
+  background: none;
+  backdrop-filter: blur(50px);
+}
+.cosmetics-details-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cosmetics-para {
+  text-align: center;
+  width: 50rem;
+  font-size: 12px;
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  line-height: 1.2rem;
+  margin-top: 13rem;
 }
