@@ -475,7 +475,7 @@ li {
   z-index: 1;
   box-shadow: 0px 5px 50px beige;
   border: 2px solid rgb(237, 237, 237);
-  border-radius: 50px;
+  border-radius: 100px;
   gap: 0.5rem;
   margin-left: 15rem;
   margin-bottom: 3rem;
@@ -496,6 +496,18 @@ li {
   font-weight: 600;
   letter-spacing: 0.3rem;
   line-height: 1.2rem;
+}
+.fa-angle-double-down {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 50px;
+  padding: 0.2rem 1.2rem;
+}
+.fa-angle-double-down:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid black;
 }
 /*  <!-- card-content-container  --> */
 .cosmetics-cards-1 {
