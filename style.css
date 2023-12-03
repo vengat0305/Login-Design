@@ -15,6 +15,8 @@ html {
 }
 
 body {
+  width: auto;
+  height: 100vh;
   display: block;
   font-family: "Elsie", serif;
   font-family: "Barlow Condensed", sans-serif;
@@ -432,6 +434,8 @@ li {
 
 /* Cosmetics content 03 */
 .cosmetics-heading {
+  width: 100%;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -478,7 +482,7 @@ li {
   border-radius: 100px;
   gap: 0.5rem;
   margin-left: 15rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .cosmetics-details-head {
   font-size: 16px;
@@ -510,6 +514,14 @@ li {
   border: 2px solid black;
 }
 /*  <!-- card-content-container  --> */
+.cards-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .cosmetics-cards-1 {
   width: 100%;
   height: auto;
@@ -517,7 +529,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
+  /* position: relative; */
   padding: 2rem;
   gap: 2rem;
 }
@@ -556,6 +568,8 @@ li {
   border-radius: 23px;
   width: 100%;
   height: 30rem;
+  /* border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; */
 }
 .card-1-details {
   width: 100%;
