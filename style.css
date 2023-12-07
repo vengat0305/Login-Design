@@ -945,6 +945,7 @@ li {
 .price-details-card-1:hover {
   background-color: rgb(255, 249, 237);
   color: #000000;
+  font-size: 14px;
   transition: 1s;
 }
 .price-details-card-2:hover {
@@ -955,5 +956,6 @@ li {
 .price-details-card-3:hover {
   background-color: rgb(227, 227, 255);
   color: #000000;
+  font-size: 14px;
   transition: 1s;
 }
