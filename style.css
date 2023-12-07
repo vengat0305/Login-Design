@@ -797,6 +797,7 @@ li {
   margin-top: 2rem;
   transform: scale(1);
   margin-bottom: 3rem;
+  transition: 1s;
 }
 .price-details-card-2 {
   width: 25rem;
@@ -915,7 +916,7 @@ li {
 }
 
 .card-3-plan-btn:hover {
-  background-color: rgb(21, 21, 205);
+  background-color: rgb(48, 48, 247);
   color: #000000;
   transition: 1s;
 }
