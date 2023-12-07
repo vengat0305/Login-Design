@@ -550,7 +550,7 @@ li {
   border-radius: 25px;
   background: rgb(255, 255, 255);
   /* backdrop-filter: blur(50px); */
-  box-shadow: 0px 2px 10px rgb(254, 240, 222);
+  box-shadow: 0px 2px 10px rgb(228, 228, 228);
   z-index: 1;
 }
 .cosmetics-img {
@@ -677,10 +677,10 @@ li {
   color: #ffffff;
   border: 2px solid rgb(0, 0, 0);
   padding: 0.9rem 5.5rem;
-  border-radius: 25px;
+  border-radius: 50px;
   transition: 1s ease;
   margin-bottom: 1.5rem;
-  box-shadow: 0px 10px 20px rgb(209, 209, 209);
+  box-shadow: 0px 10px 20px rgb(232, 232, 232);
   transition: 1s;
 }
 .card-view-btn:hover {
@@ -789,7 +789,7 @@ li {
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   border: 2px solid rgb(186, 186, 186);
   padding: 1rem;
   border-radius: 25px;
@@ -826,7 +826,7 @@ li {
   font-size: 50px;
   font-weight: 400;
   font-family: "Vina Sans", sans-serif;
-  color: rgb(60, 60, 60);
+  color: rgb(46, 46, 46);
 }
 .card-1-line-para,
 .card-2-line-para,
@@ -852,7 +852,13 @@ li {
   font-family: "Barlow Condensed", sans-serif;
   letter-spacing: 0.2rem;
   line-height: 2.3rem;
-  color: #5b5b5b;
+  color: #393939;
+}
+.close-para {
+  color: #9c9c9c;
+}
+.fa-close {
+  color: #9c9c9c;
 }
 
 .card-1-bottom-btn,
@@ -873,8 +879,8 @@ li {
   letter-spacing: 0.2rem;
   background-color: #000000;
   color: #ffffff;
-  padding: 0.8rem 3.5rem;
-  border: 2px solid rgb(52, 52, 52);
+  padding: 0.8rem 5.5rem;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 25px;
   transition: 1s;
 }
@@ -906,18 +912,18 @@ li {
 }
 .card-1-plan-btn:hover {
   background-color: rgb(219, 153, 22);
-  color: #000000;
+  color: #ffffff;
   transition: 1s;
 }
 .card-2-plan-btn:hover {
   background-color: rgb(19, 203, 19);
-  color: #000000;
+  color: #ffffff;
   transition: 1s;
 }
 
 .card-3-plan-btn:hover {
   background-color: rgb(48, 48, 247);
-  color: #000000;
+  color: #ffffff;
   transition: 1s;
 }
 
@@ -933,9 +939,9 @@ li {
   justify-content: flex-start;
   gap: 1rem;
   background-color: #ffffff;
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   padding: 1rem;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0px 4px 2px rgb(214, 214, 214);
   margin-top: 2rem;
   transform: scale(1.2);
