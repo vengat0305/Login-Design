@@ -761,9 +761,9 @@ li {
   align-items: flex-start;
   justify-content: space-around;
   gap: 1rem;
-  color: #ffffff;
+  color: #ffe8fa;
   padding: 1rem;
-  border: 1px solid rgb(255, 255, 255);
+  border: 2px solid #ffe8fa;
   border-radius: 50px;
 }
 
@@ -780,7 +780,7 @@ li {
   font-weight: 600;
   font-family: "Barlow Condensed";
   letter-spacing: 0.2rem;
-  background-color: #ffffff;
+  background-color: #ffe8fa;
   color: #000000;
   border: 2px solid rgb(255, 255, 255);
   padding: 0.8rem 5.5rem;
