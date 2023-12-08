@@ -501,18 +501,14 @@ li {
   letter-spacing: 0.3rem;
   line-height: 1.2rem;
 }
-.fa-angle-double-down {
-  color: #fff;
-  background-color: #000000;
+/* .fa-angle-double-down {
   border-radius: 50px;
   padding: 0.2rem 1.2rem;
 }
 .fa-angle-double-down:hover {
   cursor: pointer;
-  color: #000000;
-  background-color: #ffffff;
   border: 2px solid black;
-}
+} */
 /*  <!-- card-content-container  --> */
 .cards-container {
   width: 100%;
