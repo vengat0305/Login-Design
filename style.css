@@ -56,7 +56,6 @@ li {
 }
 
 .main-container {
-  scroll-behavior: smooth;
   position: relative;
   width: 100%;
   height: auto;
@@ -538,7 +537,7 @@ li {
 .card-1-content,
 .card-2-content,
 .card-3-content {
-  /* position: absolute; */
+  position: relative;
   width: 25rem;
   height: auto;
   display: flex;
@@ -569,9 +568,19 @@ li {
   border-radius: 23px;
   width: 100%;
   height: 30rem;
+  transition: 1s;
+  transform: scale(1);
   /* border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px; */
 }
+.card-1-png:hover,
+.card-2-png:hover,
+.card-3-png:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 1s;
+}
+
 .card-1-details {
   width: 100%;
   height: auto;
@@ -689,6 +698,102 @@ li {
   transition: 1s;
 }
 
+/* <!-- Box New Items 04 --> */
+
+.new-products {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.products-png {
+  position: relative;
+  width: 85rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  border: 10px solid rgb(244, 244, 244);
+}
+
+.new-products-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 1;
+  margin-bottom: -10rem;
+  margin-left: -32rem;
+  border: 1px solid rgb(183, 183, 183);
+  box-shadow: 0px 1px 0px white;
+  padding: 1rem;
+  backdrop-filter: blur(2px);
+}
+.products-head {
+  width: 35rem;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Barlow Condensed", serif;
+  letter-spacing: 0.2rem;
+  color: #ffe5fd;
+}
+.products-para {
+  width: 45rem;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", serif;
+  letter-spacing: 0.2rem;
+  line-height: 1.3rem;
+  color: #ffe5fd;
+}
+.products-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 1rem;
+  color: #ffffff;
+  padding: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.product-icon-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Barlow Condensed";
+  letter-spacing: 0.2rem;
+}
+.products-btn {
+  text-align: center;
+  text-overflow: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Barlow Condensed";
+  letter-spacing: 0.2rem;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 0.8rem 5.5rem;
+  border-radius: 50px;
+  transition: 1s ease;
+  margin-bottom: 1.5rem;
+  transition: 1s;
+}
+.products-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 1s;
+}
 /* Price-details */
 
 .price-details-container {
