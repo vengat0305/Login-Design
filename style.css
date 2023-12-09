@@ -697,8 +697,47 @@ li {
   color: #ffffff;
   transition: 1s;
 }
+/* Brands img */
+.brands-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 2rem;
+}
+.brands-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  gap: 2rem;
+  padding: 2rem;
+  border: 2px solid rgb(106, 106, 106);
+  border-radius: 150px;
 
-/* <!-- Box New Items 04 --> */
+  /* box-shadow: 0px 15px 10px -2px rgb(238, 238, 238);
+  -webkit-box-shadow: 0px 15px 10px -2px rgb(243, 243, 243);
+  -moz-box-shadow: 0px 15px 10px -2px rgb(246, 246, 246); */
+  box-shadow: 2px 56px 0px -40px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 2px 56px 0px -40px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 2px 56px 0px -40px rgba(0, 0, 0, 0.81);
+}
+.brands-png {
+  width: 10rem;
+  height: auto;
+  padding: 1rem;
+  border: 2px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  transition: 1s;
+  transform: scale(1);
+}
+.brands-png:hover {
+  cursor: pointer;
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+/* <!-- Box New Items 05 --> */
 
 .new-products {
   position: relative;
@@ -797,45 +836,6 @@ li {
   transition: 1s;
 }
 
-/* Brands img */
-.brands-container {
-  width: 100%;
-  height: auto;
-  position: relative;
-  padding: 2rem;
-}
-.brands-img {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  gap: 2rem;
-  padding: 2rem;
-  border: 2px solid rgb(106, 106, 106);
-  border-radius: 150px;
-
-  /* box-shadow: 0px 15px 10px -2px rgb(238, 238, 238);
-  -webkit-box-shadow: 0px 15px 10px -2px rgb(243, 243, 243);
-  -moz-box-shadow: 0px 15px 10px -2px rgb(246, 246, 246); */
-  box-shadow: 2px 56px 0px -40px rgba(0, 0, 0, 0.81);
-  -webkit-box-shadow: 2px 56px 0px -40px rgba(0, 0, 0, 0.81);
-  -moz-box-shadow: 2px 56px 0px -40px rgba(0, 0, 0, 0.81);
-}
-.brands-png {
-  width: 10rem;
-  height: auto;
-  padding: 1rem;
-  border: 2px solid rgb(233, 233, 233);
-  border-radius: 10px;
-  transition: 1s;
-  transform: scale(1);
-}
-.brands-png:hover {
-  cursor: pointer;
-  transition: 1s;
-  transform: scale(1.1);
-}
 /* Price-details */
 
 .price-details-container {
