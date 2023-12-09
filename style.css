@@ -714,7 +714,7 @@ li {
 .products-png {
   position: relative;
   width: 85rem;
-  height: 50rem;
+  height: 60rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -734,11 +734,11 @@ li {
   z-index: 1;
   margin-bottom: -10rem;
   margin-left: -32rem;
-  /* border: 1px solid rgb(183, 183, 183);
+  border: 1px solid rgb(183, 183, 183);
   box-shadow: 0px 1px 0px white;
   padding: 1rem;
-  backdrop-filter: blur(50px);
-  border-radius: 5px; */
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
 }
 .products-head {
   width: 35rem;
