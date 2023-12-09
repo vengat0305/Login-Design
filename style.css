@@ -109,11 +109,13 @@ li {
   transition: 2s;
 } */
 /* .logo-name {
-  font-family: "Barlow Condensed";
-  font-size: 38px;
+  font-family: "Smooch", cursive;
+  font-size: 30px;
   letter-spacing: 0.2rem;
   color: rgb(0, 0, 0);
-  font-weight: 600;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-left: -1.5rem;
   z-index: -1;
   position: absolute;
   filter: drop-shadow(1px 5px 1px rgb(184, 184, 184));
@@ -468,13 +470,13 @@ li {
   transition: 1s;
 }
 .cosmetics-details-para {
+  position: relative;
   width: 65rem;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
   margin-top: 13rem;
   padding: 1rem 5rem;
   z-index: 1;
@@ -494,6 +496,7 @@ li {
   color: #000000;
 }
 .cosmetics-para {
+  position: relative;
   text-align: center;
   width: 50rem;
   font-size: 12px;
@@ -679,8 +682,8 @@ li {
   font-weight: 600;
   font-family: "Barlow Condensed";
   letter-spacing: 0.5rem;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   border: 2px solid rgb(0, 0, 0);
   padding: 0.9rem 5.5rem;
   border-radius: 50px;
@@ -690,8 +693,8 @@ li {
   transition: 1s;
 }
 .card-view-btn:hover {
-  background-color: #fff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   transition: 1s;
 }
 
@@ -718,6 +721,7 @@ li {
   justify-content: center;
   object-fit: cover;
   border: 10px solid rgb(244, 244, 244);
+  border-radius: 10px;
 }
 
 .new-products-content {
@@ -730,10 +734,10 @@ li {
   z-index: 1;
   margin-bottom: -10rem;
   margin-left: -32rem;
-  /* border: 1px solid rgb(183, 183, 183);
-  box-shadow: 0px 1px 0px white; */
+  border: 1px solid rgb(183, 183, 183);
+  box-shadow: 0px 1px 0px white;
   padding: 1rem;
-  /* backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
 }
 .products-head {
   width: 35rem;
@@ -741,7 +745,7 @@ li {
   font-weight: 900;
   font-family: "Barlow Condensed", serif;
   letter-spacing: 0.2rem;
-  color: #ffe5fd;
+  color: #ffffff;
 }
 .products-para {
   width: 45rem;
@@ -750,7 +754,7 @@ li {
   font-family: "Barlow Condensed", serif;
   letter-spacing: 0.2rem;
   line-height: 1.3rem;
-  color: #ffe5fd;
+  color: #ffffff;
 }
 .products-icons {
   display: flex;
@@ -758,14 +762,14 @@ li {
   align-items: flex-start;
   justify-content: space-around;
   gap: 1rem;
-  color: #ffe8fa;
+  color: #ffffff;
   padding: 1rem;
-  border: 2px solid #ffe8fa;
+  border: 2px solid #ffffff;
   border-radius: 50px;
 }
 
 .product-icon-text {
-  color: #ffe8fa;
+  color: #ffffff;
   font-size: 14px;
   font-family: "Barlow Condensed";
   letter-spacing: 0.2rem;
@@ -777,7 +781,7 @@ li {
   font-weight: 600;
   font-family: "Barlow Condensed";
   letter-spacing: 0.2rem;
-  background-color: #ffe8fa;
+  background-color: #ffffff;
   color: #000000;
   border: 2px solid rgb(255, 255, 255);
   padding: 0.8rem 5.5rem;
