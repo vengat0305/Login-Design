@@ -61,7 +61,6 @@ li {
   width: 100%;
   height: auto;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
 /* Nav-Container */
 .nav-container {
@@ -1117,4 +1116,204 @@ li {
   color: #000000;
   font-size: 14px;
   transition: 1s;
+}
+
+/* footer................. */
+.footer-main {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  width: 90rem;
+  height: 30rem;
+  padding: 2rem;
+  margin-left: 2.3rem;
+  margin-top: 1rem;
+  border: 2px solid rgb(68, 68, 68);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.footer-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 2rem;
+  overflow: hidden;
+  /* backdrop-filter: blur(50px); */
+}
+.footer-background-img {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+/*  background png class */
+.footer-background-png {
+  /* overflow: hidden; */
+  width: 100%;
+  height: auto;
+  width: 90rem;
+  height: 30rem;
+  z-index: -2;
+  margin-top: -2rem;
+  object-fit: cover;
+  filter: grayscale(100%);
+  /* margin-left: 51rem; */
+}
+
+.footer-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.footer-png {
+  width: 20rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 9px 10px rgb(184, 184, 184));
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+}
+.footer-tittle {
+  width: 10rem;
+  font-size: 56px;
+  font-family: "Smooch", cursive;
+  font-weight: 400;
+  transition: 1s;
+  color: #fff;
+}
+.footer-tittle:hover {
+  cursor: pointer;
+  color: rgb(222, 151, 19);
+  transition: 1s;
+}
+.footer-para {
+  width: 30rem;
+  font-size: 10px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  line-height: 1rem;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.8rem;
+  color: #fff;
+}
+.footer-icons,
+.fa {
+  transition: all 1s;
+}
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-linkedin-square:hover,
+.fa-twitter:hover {
+  position: relative;
+  cursor: pointer;
+  color: rgb(231, 153, 29);
+  transition: all 1s;
+  transform: scale(1.7);
+  z-index: 1;
+}
+
+.footer-terms {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.about-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.footer-li {
+  width: 15rem;
+  height: auto;
+  font-size: 10px;
+  font-family: "Barlow Condensed";
+  font-weight: 100;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+}
+.email-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 8px;
+  margin-top: 1rem;
+}
+.emails {
+  width: 12rem;
+  height: 0.5rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0px;
+  padding: 1rem;
+  background: transparent;
+  backdrop-filter: blur(50px);
+}
+.email-input {
+  width: 5.5rem;
+  height: 2.2rem;
+  border-radius: 0px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Barlow Condensed";
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  transition: 1s;
+  z-index: 1;
+  position: relative;
+}
+
+.email-input:hover {
+  background: rgb(255, 255, 255);
+  color: #000000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.footer-heading {
+  width: 10rem;
+  font-size: 16px;
+  font-family: "Vina Sans";
+  font-weight: 400;
+  letter-spacing: 0.2rem;
 }
