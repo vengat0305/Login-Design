@@ -735,8 +735,8 @@ li {
   transition: 1s;
   transform: scale(1.1);
 }
-
-/* <!-- Box New Items 05 --> */
+/* ............................. */
+/* <!-- Box New Items 05....... --> */
 
 .new-products {
   position: relative;
@@ -770,12 +770,11 @@ li {
   justify-content: center;
   gap: 1rem;
   z-index: 1;
-  margin-bottom: -10rem;
-  margin-left: -32rem;
-  border: 1px solid rgb(183, 183, 183);
+  margin-left: -30rem;
+  /* border: 1px solid rgb(183, 183, 183); */
   box-shadow: 0px 1px 0px white;
-  padding: 1rem;
-  backdrop-filter: blur(2px);
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
   border-radius: 5px;
 }
 .products-head {
@@ -834,8 +833,8 @@ li {
   color: #ffffff;
   transition: 1s;
 }
-
-/* Price-details */
+/* .............................. */
+/* Price-details............... */
 
 .price-details-container {
   position: relative;
@@ -1118,6 +1117,8 @@ li {
   transition: 1s;
 }
 
+/* ........................ */
+
 /* footer................. */
 .footer-main {
   position: absolute;
@@ -1148,6 +1149,7 @@ li {
   flex-direction: row;
   align-items: end;
   justify-content: center;
+  filter: grayscale(100%);
 }
 /*  background png class */
 .footer-background-png {
@@ -1156,10 +1158,10 @@ li {
   height: auto;
   width: 90rem;
   height: 30rem;
-  z-index: -2;
+  z-index: -1;
   margin-top: -2rem;
   object-fit: cover;
-  filter: grayscale(100%);
+  filter: blur(50px);
   /* margin-left: 51rem; */
 }
 
@@ -1189,7 +1191,8 @@ li {
   justify-content: center;
   filter: drop-shadow(0px 9px 10px rgb(184, 184, 184));
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 100px;
+  filter: grayscale(40%);
+  border-radius: 200px;
 }
 .footer-tittle {
   width: 10rem;
@@ -1245,6 +1248,7 @@ li {
   align-items: flex-start;
   justify-content: center;
   margin-top: 5rem;
+  z-index: 1;
 }
 
 .about-us {
